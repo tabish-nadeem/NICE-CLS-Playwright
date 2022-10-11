@@ -1,0 +1,16 @@
+{
+  "name": "playwright-test-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx playwright test sampleTest.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.0",
+    "@types/node": "^18.8.4"
+  }
+}
