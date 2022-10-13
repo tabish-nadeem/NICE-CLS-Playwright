@@ -1,0 +1,20 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx playwright test api.spec.ts",
+    "test": "npx playwright test api.spec.ts --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1",
+    "@types/node": "^18.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
